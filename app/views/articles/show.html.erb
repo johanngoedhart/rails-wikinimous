@@ -1,0 +1,10 @@
+
+
+<h1><%= @article.title %></h1>
+
+<p><%= @article.content %></p>
+
+
+<%= link_to "Edit article", edit_article_path(@article.id) %>
+<%= link_to "Back to all articles", articles_path %>
+
